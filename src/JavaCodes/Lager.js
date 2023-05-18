@@ -1,6 +1,6 @@
 
 
-class Lager {
+export default class Lager {
     static lkwCounter;
     straße = "Industriestraße";
     plz = 86551;

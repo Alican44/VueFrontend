@@ -1,6 +1,6 @@
 var EARTH_RADIUS = 6371;
 
-class Bestellung {
+export default class Bestellung {
 
     constructor(papair, easy2Cool, pullPack, mengePapair, mengeEasy2Cool, mengePullPack, kunde, gesamtgewicht, entfernung, dieselverbrauch, energieverbrauch, co2ausstoß) {
         this.papair = papair;

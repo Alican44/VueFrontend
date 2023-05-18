@@ -1,4 +1,4 @@
-class Kunde {
+export default class Kunde {
     constructor(kundenId, name, ort, lat, lon, straße, plz) {
         this.kundenId = kundenId;
         this.name = name;
@@ -9,5 +9,5 @@ class Kunde {
         this.plz = plz;
     }
 
-    constructor() { }
+
 }
